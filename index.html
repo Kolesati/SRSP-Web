@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+	<title>SRSP</title>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- CSS 적용-->
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+
+	<!-- favicon 적용-->
+	<link rel="apple-touch-icon" sizes="57x57" href="./img/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="./img/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="./img/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="./img/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="./img/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="./img/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="./img/favicon/ms-icon-144x144.png">
+</head>
+<body>
+	<div class="content">
+		<div class="content-title">
+			Sound Voltex<br/>Random Song Picker
+		</div>
+		<div class="content-button">
+			<div class="level-1">
+				<table>
+					<tr>
+						<td><input type="checkbox" name="box[]" id="" value="01" class="checkSelect"><br/><span class = "level">1렙</span></td>
+						<td><input type="checkbox" name="box[]" id="" value="02" class="checkSelect"><br/><span class = "level">2렙</span></td>
+						<td><input type="checkbox" name="box[]" id="" value="03" class="checkSelect"><br/><span class = "level">3렙</span></td>
+						<td><input type="checkbox" name="box[]" id="" value="04" class="checkSelect"><br/><span class = "level">4렙</span></td>
+						<td><input type="checkbox" name="box[]" id="" value="05" class="checkSelect"><br/><span class = "level">5렙</span></td>
+						<td><input type="checkbox" name="box[]" id="" value="06" class="checkSelect"><br/><span class = "level">6렙</span></td>
+						<td><input type="checkbox" name="box[]" id="" value="07" class="checkSelect"><br/><span class = "level">7렙</span></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" name="box[]" id="" value="08" class="checkSelect"><br/><span class = "level">8렙</span></td>
+						<td><input type="checkbox" name="box[]" id="" value="09" class="checkSelect"><br/><span class = "level">9렙</span></td>
+						<td><input type="checkbox" name="box[]" id="" value="10" class="checkSelect"><br/><span class = "level">10렙</span></td>
+						<td><input type="checkbox" name="box[]" id="" value="11" class="checkSelect"><br/><span class = "level">11렙</span></td>
+						<td><input type="checkbox" name="box[]" id="" value="12" class="checkSelect"><br/><span class = "level">12렙</span></td>
+						<td><input type="checkbox" name="box[]" id="" value="13" class="checkSelect"><br/><span class = "level">13렙</span></td>
+						<td><input type="checkbox" name="box[]" id="" value="14" class="checkSelect"><br/><span class = "level">14렙</span></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" name="box[]" id="" value="15" class="checkSelect"><br/><span class = "level">15렙</span></td>
+						<td><input type="checkbox" name="box[]" id="" value="16" class="checkSelect"><br/><span class = "level">16렙</span></td>
+						<td><input type="checkbox" name="box[]" id="" value="17" class="checkSelect"><br/><span class = "level">17렙</span></td>
+						<td><input type="checkbox" name="box[]" id="" value="18" class="checkSelect"><br/><span class = "level">18렙</span></td>
+						<td><input type="checkbox" name="box[]" id="" value="19" class="checkSelect"><br/><span class = "level">19렙</span></td>
+						<td><input type="checkbox" name="box[]" id="" value="20" class="checkSelect"><br/><span class = "level">20렙</span></td>
+					</tr>
+					<!-- <tr>
+					</tr> -->
+				</table>
+			</div>
+			
+			<!-- 상2 하1 구조-->
+			<div class="level-2">
+				<table>
+					<tr>
+						<td rowspan="2"><img name = "illust"src="/images/assets0/default.jpg" alt=""></td>
+				      	<td><p id = "level">선택된 레벨</p></td>
+					</tr>
+					<tr>
+						<td><p id = "title">선택된 곡명</p></td>
+					</tr>
+				</table>
+				</div>
+			</div>
+			<div class="level-3">
+				<button type="title" onclick='RecommendSong();'>곡을 만나볼까요??</button>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
